@@ -45,5 +45,7 @@
 
 @interface UIView (XibHelper)
 
+@property (nonatomic, strong) UIView *xibView;
+
 - (void) xibSetup;
 @end

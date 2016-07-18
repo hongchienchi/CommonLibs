@@ -170,11 +170,6 @@ static char kXibViewKey;
 
 @end
 
-@interface UIView ()
-
-@property (strong, nonatomic) UIView *xibView;
-
-@end
 
 @implementation UIView (XibHelper)
 
