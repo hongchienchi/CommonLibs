@@ -173,13 +173,13 @@ static char kXibViewKey;
 
 @implementation UIView (XibHelper)
 
-- (id) storedConstrains
+- (id) xibView
 {
     NSObject* xibView = objc_getAssociatedObject(self, &kXibViewKey);
     return xibView;
 }
 
-- (void)setStoredConstrains:(NSObject*) xibView
+- (void)setXibView:(NSObject*) xibView
 {
     objc_setAssociatedObject(self, &kXibViewKey, xibView, OBJC_ASSOCIATION_RETAIN);
 }
