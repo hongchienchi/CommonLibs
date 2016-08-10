@@ -1,6 +1,6 @@
 //
 //  DeviceHelper.swift
-//  PW_Swift_HW
+//  
 //
 //  Created by CC Cooper on 7/11/16.
 //  Copyright © 2016 CC Cooper. All rights reserved.

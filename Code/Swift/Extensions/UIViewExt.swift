@@ -1,6 +1,6 @@
 //
 //  UIViewExt.swift
-//  PW_Swift_HW
+//  
 //
 //  Created by CC Cooper on 7/12/16.
 //  Copyright © 2016 CC Cooper. All rights reserved.
@@ -11,7 +11,7 @@ import UIKit
 
 extension UIView {
 
-    // MARK - load nib file
+    // MARK: - load nib file
     func loadFromNib(nibName: String)
     {
         let subviews = NSBundle.mainBundle().loadNibNamed(nibName, owner: self, options: nil)
@@ -25,7 +25,7 @@ extension UIView {
     }
     
     
-    // MARK - frame properties
+    // MARK: - frame properties
     var frameX: CGFloat {
         get{
             return self.frame.origin.x
@@ -129,7 +129,7 @@ extension UIView {
         }
     }
     
-    // MARK - Background gradient color
+    // MARK: - Background gradient color
     
     func setBackgroundGradienVertical(color:UIColor)
     {
